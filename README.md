@@ -29,7 +29,7 @@ Este proyecto implementa una tabla hash básica en C++ para gestionar una agenda
 - Incluye una función para imprimir todos los elementos de la tabla.
 
 ### Estructura del proyecto:
-(proyecto de un directorio telefónico)
+(Ejemplo de una libreta de telefónos.  Usada con mucha utilidad en el siglo pasado, "Conocidad como: PAGINAS BLANCAS"
 - `HashTable.h` y `HashTable.cpp`: Implementación de la tabla hash.
 - `Nodo.h` y `Nodo.cpp`: Definición de los nodos para el encadenamiento.
 - `Data.h` y `Data.cpp`: Clase para almacenar los datos de cada contacto.
@@ -42,5 +42,54 @@ Este proyecto implementa una tabla hash básica en C++ para gestionar una agenda
 2. Navega al directorio del proyecto.
 3. Ejecuta `make` para compilar.
 4. Ejecuta `./libretatelefono` para ver una demostración.
+
+### Ejemplo de salida:
+
+Cuando ejecutes el programa, verás una salida similar a esta:
+
+```
+Contenido de la agenda:
+Bucket 0:
+ └─Nombre: Maria, Teléfono: 098-765-4321
+Bucket 1:
+Bucket 2:
+ └─Nombre: Ana, Teléfono: 444-555-6666
+Bucket 3:
+ └─Nombre: Luis, Teléfono: 777-888-9999
+Bucket 4:
+Bucket 5:
+Bucket 6:
+ └─Nombre: Pedro, Teléfono: 111-222-3333
+Bucket 7:
+Bucket 8:
+ └─Nombre: Juan, Teléfono: 123-456-7890
+Bucket 9:
+
+Búsqueda exitosa: Nombre: Maria, Teléfono: 098-765-4321
+
+Se eliminó a Juan de la agenda
+
+Contenido actualizado de la agenda:
+Bucket 0:
+ └─Nombre: Maria, Teléfono: 098-765-4321
+Bucket 1:
+Bucket 2:
+ └─Nombre: Ana, Teléfono: 444-555-6666
+Bucket 3:
+ └─Nombre: Luis, Teléfono: 777-888-9999
+Bucket 4:
+Bucket 5:
+Bucket 6:
+ └─Nombre: Pedro, Teléfono: 111-222-3333
+Bucket 7:
+Bucket 8:
+Bucket 9:
+```
+
+Esta salida muestra:
+1. El contenido inicial de la agenda.
+2. El resultado de una búsqueda exitosa.
+3. La confirmación de la eliminación de un contacto.
+4. El contenido actualizado de la agenda después de la eliminación.
 
 Este proyecto sirve como una introducción práctica a las tablas hash y puede ser utilizado como base para implementaciones más complejas o especializadas.
