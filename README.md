@@ -41,6 +41,6 @@ Este proyecto implementa una tabla hash básica en C++ para gestionar una agenda
 1. Clona este repositorio.
 2. Navega al directorio del proyecto.
 3. Ejecuta `make` para compilar.
-4. Ejecuta `./programa` para ver una demostración.
+4. Ejecuta `./libretatelefono` para ver una demostración.
 
 Este proyecto sirve como una introducción práctica a las tablas hash y puede ser utilizado como base para implementaciones más complejas o especializadas.
