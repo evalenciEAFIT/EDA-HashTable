@@ -29,7 +29,7 @@ Este proyecto implementa una tabla hash básica en C++ para gestionar una agenda
 - Incluye una función para imprimir todos los elementos de la tabla.
 
 ### Estructura del proyecto:
-
+(proyecto de un directorio telefónico)
 - `HashTable.h` y `HashTable.cpp`: Implementación de la tabla hash.
 - `Nodo.h` y `Nodo.cpp`: Definición de los nodos para el encadenamiento.
 - `Data.h` y `Data.cpp`: Clase para almacenar los datos de cada contacto.
