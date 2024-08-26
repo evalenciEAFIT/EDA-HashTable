@@ -87,9 +87,9 @@ Bucket 9:
 ```
 
 Esta salida muestra:
-1. El contenido inicial de la agenda.
+1. El contenido inicial de la agenda. (10 hojas o Bucket en la libreta)
 2. El resultado de una búsqueda exitosa.
 3. La confirmación de la eliminación de un contacto.
-4. El contenido actualizado de la agenda después de la eliminación.
+4. El contenido actualizado de la agenda después de la eliminación. (libreta de 10 hojas "bucket" en la libreta)
 
 Este proyecto sirve como una introducción práctica a las tablas hash y puede ser utilizado como base para implementaciones más complejas o especializadas.
