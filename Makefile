@@ -5,7 +5,7 @@ CXX = g++
 CXXFLAGS = -std=c++11 -Wall -Wextra
 
 # Nombre del ejecutable
-TARGET = programa
+TARGET = libretatelefono
 
 # Archivos fuente
 SOURCES = main.cpp HashTable.cpp Nodo.cpp Data.cpp
